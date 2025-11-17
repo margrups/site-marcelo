@@ -69,7 +69,7 @@ export default function CurriculoPage() {
                title="Estagiário de design multidisciplinar" 
                company="WoodSkull - Curitiba, BR"
              >
-               <p>Atuo no desenvolvimento completo de produtos, da concepção à prototipagem e lançamento, unindo forma, função e narrativa. Realizo modelagem 3D, desenhos técnicos e testes de viabilidade, sempre com atenção à experiência do usuário e à coerência estética. Também contribuo na criação de materiais gráficos e no desenvolvimento de interfaces digitais, garantindo que cada ponto de contato reforce a identidade da marca.</p>
+               <p>Atuei no desenvolvimento completo de produtos, da concepção à prototipagem e lançamento, unindo forma, função e narrativa. Realizei modelagem 3D, desenhos técnicos e testes de viabilidade, sempre com atenção à experiência do usuário e à coerência estética. Também contribui na criação de materiais gráficos e no desenvolvimento de interfaces digitais, garantindo que cada ponto de contato reforce a identidade da marca.</p>
              </TimelineItem>
              
              {/* Item da Timeline: Semana Acadêmica */}
@@ -78,7 +78,7 @@ export default function CurriculoPage() {
                title="Presidente da Semana Acadêmica de Design" 
                company="PUCPR - Curitiba"
              >
-               <p>Lidero o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuo na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
+               <p>Liderei o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuei na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
              </TimelineItem>
              
              {/* Item da Timeline: Marcenaria */}
