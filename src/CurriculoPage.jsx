@@ -22,23 +22,23 @@ export default function CurriculoPage() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   // --- DADOS DAS SKILLS (ATUALIZADOS) ---
-  const competencies = [ 
-    { label:"Sketch", percentage:70, color:"#E63946" },
-    { label:"Desenho Técnico", percentage:80, color:"#E63946" },
+ const competencies = [ 
     { label:"SolidWorks", percentage:50, color:"#E63946" },
     { label:"Fusion 360", percentage:70, color:"#E63946" }, 
-    { label:"IA Generativa", percentage:70, color:"#E63946" }, // <-- ADICIONADO AQUI
-    { label:"Prototipação", percentage:50, color:"#E63946" },
+    { label:"Desenho Técnico", percentage:80, color:"#E63946" },
+    { label:"Sketch", percentage:70, color:"#E63946" },
     { label:"Impressão 3D", percentage:60, color:"#E63946" },
-    { label:"Illustrator", percentage:60, color:"#E63946" }, // Corrigido (era E663946)
+    { label:"Prototipação", percentage:50, color:"#E63946" },
+    { label:"IA Generativa", percentage:70, color:"#E63946" },
+    { label:"Illustrator", percentage:60, color:"#E63946" }, 
     { label:"Photoshop", percentage:55, color:"#E63946" }, 
     { label:"Pacote Office", percentage:50, color:"#E63946" } 
   ];
   
   const languages = [ 
-    { label:"Português", percentage:100, color:"#4B7F52" }, 
-    { label:"Inglês (Proficiente)", percentage:100, color:"#4B7F52" }, 
-    { label:"Hebraico (Básico)", percentage:25, color:"#4B7F52" }, 
+    { label:"Português(Nativo)", percentage:100, color:"#4B7F52" }, 
+    { label:"Inglês (C2)", percentage:100, color:"#4B7F52" }, 
+    { label:"Hebraico (A2)", percentage:20, color:"#4B7F52" }, 
     { label:"Espanhol (B2)", percentage:75, color:"#4B7F52" }
   ];
   
