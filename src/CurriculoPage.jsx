@@ -27,9 +27,10 @@ export default function CurriculoPage() {
     { label:"Desenho Técnico", percentage:80, color:"#E63946" },
     { label:"SolidWorks", percentage:50, color:"#E63946" },
     { label:"Fusion 360", percentage:70, color:"#E63946" }, 
+    { label:"IA Generativa", percentage:70, color:"#E63946" }, // <-- ADICIONADO AQUI
     { label:"Prototipação", percentage:50, color:"#E63946" },
     { label:"Impressão 3D", percentage:60, color:"#E63946" },
-    { label:"Illustrator", percentage:60, color:"#E63946" }, 
+    { label:"Illustrator", percentage:60, color:"#E63946" }, // Corrigido (era E663946)
     { label:"Photoshop", percentage:55, color:"#E63946" }, 
     { label:"Pacote Office", percentage:50, color:"#E63946" } 
   ];
@@ -74,11 +75,11 @@ export default function CurriculoPage() {
              
              {/* Item da Timeline: Semana Acadêmica */}
              <TimelineItem 
-               date="Nov 2024 – Nov 2025" 
+               date="Nov 2024 – Dez 2025" 
                title="Presidente da Semana Acadêmica de Design" 
                company="PUCPR - Curitiba"
              >
-               <p>Liderei o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuei na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
+               <p>Lidero o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuei na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
              </TimelineItem>
              
              {/* Item da Timeline: Marcenaria */}
