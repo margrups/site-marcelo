@@ -2,17 +2,16 @@ import React, { useEffect } from 'react';
 import BackButton from './components/BackButton.jsx';
 import TimelineItem from './components/TimelineItem.jsx';
 import SkillBar from './components/SkillBar.jsx';
-import { useScrollAnimation } from './hooks/useScrollAnimation.js'; // Garante terminação .js
+import { useScrollAnimation } from './hooks/useScrollAnimation.js'; 
 
 // Componente Wrapper para animação de scroll suave
 const FadeInUp = ({ children, delay = 0.1 }) => { 
-  // threshold: 0.1 -> anima quando 10% do elemento está visível
   const [ref, isVisible] = useScrollAnimation({ threshold: 0.1, triggerOnce: true }); 
   return (
     <div 
       ref={ref} 
       className={`fade-in-up ${isVisible ? 'is-visible' : ''}`}
-      style={{ transitionDelay: `${delay}s` }} // Adiciona um pequeno delay opcional
+      style={{ transitionDelay: `${delay}s` }} 
     >
       {children}
     </div>
@@ -20,24 +19,28 @@ const FadeInUp = ({ children, delay = 0.1 }) => {
 };
 
 export default function CurriculoPage() {
-  // Rola para o topo ao carregar a página
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
-  // --- Dados das Skills ---
-  // (Valores e cores baseados na sua imagem e CV)
+  // --- DADOS DAS SKILLS (ATUALIZADOS) ---
   const competencies = [ 
+    { label:"Sketch", percentage:70, color:"#E63946" },
+    { label:"Desenho Técnico", percentage:80, color:"#E63946" },
+    { label:"SolidWorks", percentage:50, color:"#E63946" },
     { label:"Fusion 360", percentage:70, color:"#E63946" }, 
+    { label:"Prototipação", percentage:50, color:"#E63946" },
+    { label:"Impressão 3D", percentage:60, color:"#E63946" },
     { label:"Illustrator", percentage:60, color:"#E63946" }, 
     { label:"Photoshop", percentage:55, color:"#E63946" }, 
     { label:"Pacote Office", percentage:50, color:"#E63946" } 
   ];
+  
   const languages = [ 
     { label:"Português", percentage:100, color:"#4B7F52" }, 
     { label:"Inglês (Proficiente)", percentage:100, color:"#4B7F52" }, 
     { label:"Hebraico (Básico)", percentage:25, color:"#4B7F52" }, 
-    { label:"Espanhol (B2)", percentage:75, color:"#4B7F52" } // Ajustado para B2 = 75%
+    { label:"Espanhol (B2)", percentage:75, color:"#4B7F52" }
   ];
-  // Combina soft skills da imagem e CV, removendo duplicatas
+  
   const softSkillsList = [
       "Escuta ativa", "Colaboração multidisciplinar", "Organização e autonomia", 
       "Responsabilidade socioambiental", "Criatividade orientada à solução",
@@ -46,14 +49,11 @@ export default function CurriculoPage() {
   const uniqueSoftSkills = [...new Set(softSkillsList)]; 
 
   return (
-    // Container principal da página com animação de entrada
     <div className="page-container curriculum-page"> 
-      <BackButton /> {/* Botão Voltar (topo esquerdo) */}
+      <BackButton />
       
-      {/* Wrapper para o conteúdo principal */}
       <div className="content-wrapper">
         
-        {/* Header com Título Grande */}
         <header className="curriculum-header">
           <FadeInUp><h1 className="main-page-title">Currículo</h1></FadeInUp>
           <FadeInUp delay={0.15}><p className="curriculum-objective">Acredito no poder do design como ferramenta estratégica e simbólica, e busco crescer com consistência, aprendendo desde a base para, futuramente, ocupar posições de liderança.</p></FadeInUp>
@@ -74,7 +74,7 @@ export default function CurriculoPage() {
              
              {/* Item da Timeline: Semana Acadêmica */}
              <TimelineItem 
-               date="Nov 2024 – Dez 2025" 
+               date="Nov 2024 – Nov 2025" 
                title="Presidente da Semana Acadêmica de Design" 
                company="PUCPR - Curitiba"
              >
@@ -134,7 +134,7 @@ export default function CurriculoPage() {
               <div className="skills-column">
                 <h3>Competências</h3>
                 <div className="skill-bars-list">
-                  {/* Mapeia o array competencies para criar as barras */}
+                  {/* Mapeia o array competencies (ATUALIZADO) */}
                   {competencies.map(skill => <SkillBar key={skill.label} {...skill} />)}
                 </div>
               </div>
@@ -145,7 +145,6 @@ export default function CurriculoPage() {
               <div className="skills-column">
                 <h3>Idiomas</h3>
                 <div className="skill-bars-list">
-                   {/* Mapeia o array languages para criar as barras */}
                   {languages.map(lang => <SkillBar key={lang.label} {...lang} />)}
                 </div>
               </div>
@@ -156,7 +155,6 @@ export default function CurriculoPage() {
               <div className="skills-column">
                 <h3>Soft Skills</h3>
                 <ul className="skills-list">
-                  {/* Mapeia o array uniqueSoftSkills para criar a lista */}
                   {uniqueSoftSkills.map(skill => <li key={skill}>{skill}</li>)}
                 </ul>
               </div>
@@ -164,7 +162,7 @@ export default function CurriculoPage() {
           </div>
         </section>
 
-      </div> {/* Fim do content-wrapper */}
-    </div> // Fim do page-container
+      </div> 
+    </div> 
   );
 }
