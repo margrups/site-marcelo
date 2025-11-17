@@ -38,7 +38,7 @@ export default function CurriculoPage() {
   const languages = [ 
     { label:"Português (Nativo)", percentage:100, color:"#4B7F52" }, 
     { label:"Inglês (C2)", percentage:100, color:"#4B7F52" }, 
-    { label:"Espanhol (B2)", percentage:75, color:"#4B7F52" }
+    { label:"Espanhol (B2)", percentage:75, color:"#4B7F52" },
     { label:"Hebraico (A2)", percentage:20, color:"#4B7F52" }, 
   ];
   
