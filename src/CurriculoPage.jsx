@@ -65,6 +65,11 @@ export default function CurriculoPage() {
         <section className="timeline-section">
           <FadeInUp><h2>Experiência Profissional</h2></FadeInUp>
           <div className="timeline">
+
+            <TimelineItem date="Jan 2026 – Presente" title="Estagiário de Design Industrial" company="Chameleon Tecnologia - Curitiba, BR">
+               <p>Atuo na pesquisa e desenvolvimento da parte mecânica e conceitual de produtos tecnológicos, participando desde a ideação até a validação técnica. Realizo modelagem 3D, renderização de alta fidelidade e especificações rigorosas de materiais e mecanismos complexos. Com foco em Design for Manufacturing (DfM), acompanho o desenvolvimento de protótipos e a adequação dos projetos para produção industrial.</p>
+             </TimelineItem>
+            
              {/* Item da Timeline: Woodskull */}
              <TimelineItem 
                date="Fev 2025 – Nov 2025" 
@@ -80,7 +85,7 @@ export default function CurriculoPage() {
                title="Presidente da Semana Acadêmica de Design" 
                company="PUCPR - Curitiba"
              >
-               <p>Lidero o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuei na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
+               <p>Liderei o planejamento e a execução de um evento acadêmico de grande porte, coordenando uma equipe multidisciplinar na definição de temáticas, gestão logística e curadoria de experiências significativas. Além de garantir a fluidez operacional, atuei na construção de uma identidade coerente e inspiradora para o evento, fortalecendo sua relevância entre estudantes e profissionais do design.</p>
              </TimelineItem>
              
              {/* Item da Timeline: Marcenaria */}
