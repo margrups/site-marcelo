@@ -25,6 +25,7 @@ export default function CurriculoPage() {
  const competencies = [ 
     { label:"SolidWorks", percentage:50, color:"#E63946" },
     { label:"Fusion 360", percentage:70, color:"#E63946" }, 
+   { label: "Keyshot", percentage: 50, color: "#E63946" },
     { label:"Desenho Técnico", percentage:80, color:"#E63946" },
     { label:"Sketch", percentage:70, color:"#E63946" },
     { label:"Impressão 3D", percentage:60, color:"#E63946" },
