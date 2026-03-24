@@ -73,7 +73,7 @@ export default function CurriculoPage() {
              {/* Item da Timeline: Woodskull */}
              <TimelineItem 
                date="Fev 2025 – Nov 2025" 
-               title="Estagiário de design multidisciplinar" 
+               title="Estagiário de Design de Mobiliário" 
                company="WoodSkull - Curitiba, BR"
              >
                <p>Atuei no desenvolvimento completo de produtos, da concepção à prototipagem e lançamento, unindo forma, função e narrativa. Realizei modelagem 3D, desenhos técnicos e testes de viabilidade, sempre com atenção à experiência do usuário e à coerência estética. Também contribui na criação de materiais gráficos e no desenvolvimento de interfaces digitais, garantindo que cada ponto de contato reforce a identidade da marca.</p>
