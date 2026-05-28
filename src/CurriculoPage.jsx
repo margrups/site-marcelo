@@ -100,17 +100,6 @@ export default function CurriculoPage() {
              >
                <p>Auxiliei na criação e montagem de móveis personalizados, adquirindo experiência prática em técnicas de marcenaria. Participei do processo de design, aprimorando meu entendimento sobre funcionalidade e estética.</p>
              </TimelineItem>
-             
-             {/* Item da Timeline: Centro Israelita */}
-             <TimelineItem 
-               date="Jul 2024 – Dez 2024" 
-               title="Estagiário de Design" 
-               company="Centro Israelita do Paraná - Curitiba"
-             >
-               <p>Desenvolvi peças gráficas para eventos, como banners, cartazes e conteúdos digitais, sempre alinhadas à identidade visual proposta. Colaborei ativamente com a equipe para garantir consistência na comunicação da marca e criar soluções visuais que gerassem impacto e reforçassem a narrativa do evento.</p>
-             </TimelineItem>
-          </div>
-        </section>
 
         {/* --- Seção Formação Acadêmica --- */}
         <section className="timeline-section">
