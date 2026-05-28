@@ -69,6 +69,10 @@ export default function CurriculoPage() {
             <TimelineItem date="Jan 2026 – Presente" title="Estagiário de Design Industrial" company="Chameleon Tecnologia - Curitiba, BR">
                <p>Atuo na pesquisa e desenvolvimento da parte mecânica e conceitual de produtos tecnológicos, participando desde a ideação até a validação técnica. Realizo modelagem 3D, renderização de alta fidelidade e especificações rigorosas de materiais e mecanismos complexos. Com foco em Design for Manufacturing (DfM), acompanho o desenvolvimento de protótipos e a adequação dos projetos para produção industrial.</p>
              </TimelineItem>
+
+             <TimelineItem date="Mar 2026 – Presente" title="Student Ambassador" company="KeyShot">
+               <p>Como Student Ambassador, meu foco é atuar como uma ponte entre o KeyShot e a comunidade de estudantes de design. Sou responsável por facilitar o engajamento, compartilhar fluxos de trabalho avançados e criar conteúdo de alta qualidade que demonstre todo o potencial do software. Ao oferecer suporte direto aos colegas e fornecer feedback à equipe da KeyShot, ajudo outros designers a dominarem a visualização de alta fidelidade e a elevarem o impacto de seus projetos criativos.</p>
+             </TimelineItem>
             
              {/* Item da Timeline: Woodskull */}
              <TimelineItem 
